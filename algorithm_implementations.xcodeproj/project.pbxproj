@@ -17,6 +17,8 @@
 		4FDF05E91A2DA84C00317A7A /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05E71A2DA84C00317A7A /* factorial.cpp */; };
 		4FDF05EC1A2DAD1B00317A7A /* prime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05EA1A2DAD1B00317A7A /* prime.cpp */; };
 		4FDF05F21A2E18F600317A7A /* fourier_transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */; };
+		4FDF05F61A2E1F8900317A7A /* bfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05F41A2E1F8800317A7A /* bfs.cpp */; };
+		4FDF05F91A2E2AF800317A7A /* dfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05F71A2E2AF800317A7A /* dfs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,10 @@
 		4FDF05EB1A2DAD1B00317A7A /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
 		4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fourier_transform.cpp; sourceTree = "<group>"; };
 		4FDF05F11A2E18F600317A7A /* fourier_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourier_transform.h; sourceTree = "<group>"; };
+		4FDF05F41A2E1F8800317A7A /* bfs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bfs.cpp; sourceTree = "<group>"; };
+		4FDF05F51A2E1F8900317A7A /* bfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bfs.h; sourceTree = "<group>"; };
+		4FDF05F71A2E2AF800317A7A /* dfs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfs.cpp; sourceTree = "<group>"; };
+		4FDF05F81A2E2AF800317A7A /* dfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		4F0D7EF61A2A38B800C09DA7 /* algorithm_implementations */ = {
 			isa = PBXGroup;
 			children = (
+				4FDF05F31A2E1F7C00317A7A /* Graph */,
 				4F0D7F001A2A38EB00C09DA7 /* Algebra */,
 				4F0D7EF71A2A38B800C09DA7 /* main.cpp */,
 				4F0D7F0A1A2B341A00C09DA7 /* macros.cpp */,
@@ -114,6 +121,17 @@
 				4FDF05F11A2E18F600317A7A /* fourier_transform.h */,
 			);
 			name = Algebra;
+			sourceTree = "<group>";
+		};
+		4FDF05F31A2E1F7C00317A7A /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF05F41A2E1F8800317A7A /* bfs.cpp */,
+				4FDF05F51A2E1F8900317A7A /* bfs.h */,
+				4FDF05F71A2E2AF800317A7A /* dfs.cpp */,
+				4FDF05F81A2E2AF800317A7A /* dfs.h */,
+			);
+			name = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +191,11 @@
 				4FDF05F21A2E18F600317A7A /* fourier_transform.cpp in Sources */,
 				4F0D7EF81A2A38B800C09DA7 /* main.cpp in Sources */,
 				4F0D7F031A2A394000C09DA7 /* euler_totient.cpp in Sources */,
+				4FDF05F91A2E2AF800317A7A /* dfs.cpp in Sources */,
 				4FDF05E91A2DA84C00317A7A /* factorial.cpp in Sources */,
 				4F0D7F181A2B48C400C09DA7 /* euclid_gcd.cpp in Sources */,
 				4FDF05EC1A2DAD1B00317A7A /* prime.cpp in Sources */,
+				4FDF05F61A2E1F8900317A7A /* bfs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
