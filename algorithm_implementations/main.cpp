@@ -11,6 +11,8 @@
 #include "binary_pow.h"
 #include "euclid_gcd.h"
 #include "macros.cpp"
+#include "factorial.h"
+
 using namespace std;
 
 int main(int argc, const char * argv[])
@@ -20,7 +22,7 @@ int main(int argc, const char * argv[])
     int a,b;
     int x,y;
     cin>>a>>b;
-    cout<<all_inverses(a);
+    cout<<fact_pow(a, b);
     return 0;
 }
 

@@ -71,3 +71,19 @@ vector<int> all_inverses(int m){
     }
     return r;
 }
+
+bool solve_linear (int a, int b, int c, int & x0, int & y0, int & g) {
+    /*
+     solves ax+by=c
+     a,b!=0
+     */
+    
+	g = extended_gcd (abs(a), abs(b), x0, y0);
+	if (c % g != 0)
+		return false;
+	x0 *= c / g;
+	y0 *= c / g;
+	if (a < 0)   x0 *= -1;
+	if (b < 0)   y0 *= -1;
+	return true;
+}

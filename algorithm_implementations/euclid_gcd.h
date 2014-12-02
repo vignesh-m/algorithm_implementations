@@ -20,4 +20,5 @@ int extended_gcd (int , int , int &, int & );
 ll extended_lgcd (ll , ll , ll & , ll & );
 ll modular_inverse(ll ,ll );
 vector<int> all_inverses(int );
+bool solve_linear (int , int , int , int & , int &, int & );
 #endif /* defined(__algorithm_implementations__euclid_gcd__) */
