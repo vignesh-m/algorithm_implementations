@@ -14,7 +14,6 @@
 		4F0D7F151A2B469C00C09DA7 /* binary_pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F131A2B469C00C09DA7 /* binary_pow.cpp */; };
 		4F0D7F181A2B48C400C09DA7 /* euclid_gcd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F161A2B48C400C09DA7 /* euclid_gcd.cpp */; };
 		4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */; };
-		4FDF05E31A2D97AC00317A7A /* extended_euclid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05E11A2D97AC00317A7A /* extended_euclid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,8 +44,6 @@
 		4F0D7F171A2B48C400C09DA7 /* euclid_gcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = euclid_gcd.h; sourceTree = "<group>"; };
 		4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eratosthenes_sieve.cpp; sourceTree = "<group>"; };
 		4F0D7F1A1A2B4F6D00C09DA7 /* eratosthenes_sieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eratosthenes_sieve.h; sourceTree = "<group>"; };
-		4FDF05E11A2D97AC00317A7A /* extended_euclid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extended_euclid.cpp; sourceTree = "<group>"; };
-		4FDF05E21A2D97AC00317A7A /* extended_euclid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extended_euclid.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +97,6 @@
 				4F0D7F171A2B48C400C09DA7 /* euclid_gcd.h */,
 				4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */,
 				4F0D7F1A1A2B4F6D00C09DA7 /* eratosthenes_sieve.h */,
-				4FDF05E11A2D97AC00317A7A /* extended_euclid.cpp */,
-				4FDF05E21A2D97AC00317A7A /* extended_euclid.h */,
 			);
 			name = Algebra;
 			sourceTree = "<group>";
@@ -161,7 +156,6 @@
 				4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */,
 				4F0D7F151A2B469C00C09DA7 /* binary_pow.cpp in Sources */,
 				4F0D7EF81A2A38B800C09DA7 /* main.cpp in Sources */,
-				4FDF05E31A2D97AC00317A7A /* extended_euclid.cpp in Sources */,
 				4F0D7F031A2A394000C09DA7 /* euler_totient.cpp in Sources */,
 				4F0D7F181A2B48C400C09DA7 /* euclid_gcd.cpp in Sources */,
 			);

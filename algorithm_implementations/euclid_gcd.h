@@ -14,4 +14,6 @@ typedef long long ll;
 int gcd(int a,int b);
 ll lgcd(ll a,ll b);
 ll llcm(ll a,ll b);
+int extended_gcd (int , int , int &, int & );
+ll extended_lgcd (ll , ll , ll & , ll & );
 #endif /* defined(__algorithm_implementations__euclid_gcd__) */
