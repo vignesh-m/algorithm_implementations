@@ -20,7 +20,7 @@ int main(int argc, const char * argv[])
     int a,b;
     int x,y;
     cin>>a>>b;
-    cout<<extended_gcd(a, b, x, y)<<" "<<x<<" "<<y;
+    cout<<all_inverses(a);
     return 0;
 }
 

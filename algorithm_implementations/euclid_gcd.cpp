@@ -61,3 +61,13 @@ ll modular_inverse(ll n,ll mod){
     if(g!=1) return -1;
     return (x+mod)%mod;
 }
+
+vector<int> all_inverses(int m){
+    vector<int> r(m,0);
+    r[0]=-1;
+    r[1]=1;
+    for(int i=2;i<m;i++){
+        r[i]=(m - (m/i) * r[m%i] % m) % m;
+    }
+    return r;
+}
