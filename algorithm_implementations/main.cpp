@@ -11,18 +11,17 @@
 #include "binary_pow.h"
 #include "euclid_gcd.h"
 #include "macros.cpp"
+#include "extended_euclid.h"
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
     freopen("/Users/vigneshm/Documents/codespace/algorithm_implementations/input.txt", "r", stdin);
     freopen("/Users/vigneshm/Documents/codespace/algorithm_implementations/output.txt", "w", stdout);
-    int n,l;
-    cin>>n>>l;
-    vector<bool> sieve =block_prime_sieve(n,2*n);
-    vi lp=linear_prime_sieve(n);
-    cout<<lp<<"\n";
-    cout<<l<<" "<<all_factorisations(l, lp);
+    int a,b;
+    int x,y;
+    cin>>a>>b;
+    cout<<extended_gcd(a, b, x, y)<<" "<<x<<" "<<y;
     return 0;
 }
 
