@@ -11,7 +11,6 @@
 #include "binary_pow.h"
 #include "euclid_gcd.h"
 #include "macros.cpp"
-#include "extended_euclid.h"
 using namespace std;
 
 int main(int argc, const char * argv[])

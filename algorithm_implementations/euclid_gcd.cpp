@@ -54,3 +54,10 @@ ll extended_lgcd (ll a, ll b, ll & x, ll & y) {
 	y = x1;
 	return d;
 }
+
+ll modular_inverse(ll n,ll mod){
+    ll x,y;
+    ll g=extended_lgcd(n, mod, x, y);
+    if(g!=1) return -1;
+    return (x+mod)%mod;
+}
