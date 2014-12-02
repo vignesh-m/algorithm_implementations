@@ -128,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "e-maxx";
+				ORGANIZATIONNAME = vignesh;
 			};
 			buildConfigurationList = 4F0D7EEF1A2A38B800C09DA7 /* Build configuration list for PBXProject "algorithm_implementations" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -267,6 +267,7 @@
 				4F0D7EFF1A2A38B800C09DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
