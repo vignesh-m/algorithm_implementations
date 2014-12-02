@@ -16,6 +16,7 @@
 		4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */; };
 		4FDF05E91A2DA84C00317A7A /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05E71A2DA84C00317A7A /* factorial.cpp */; };
 		4FDF05EC1A2DAD1B00317A7A /* prime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05EA1A2DAD1B00317A7A /* prime.cpp */; };
+		4FDF05F21A2E18F600317A7A /* fourier_transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		4FDF05E81A2DA84C00317A7A /* factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
 		4FDF05EA1A2DAD1B00317A7A /* prime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prime.cpp; sourceTree = "<group>"; };
 		4FDF05EB1A2DAD1B00317A7A /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
+		4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fourier_transform.cpp; sourceTree = "<group>"; };
+		4FDF05F11A2E18F600317A7A /* fourier_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourier_transform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				4FDF05E81A2DA84C00317A7A /* factorial.h */,
 				4FDF05EA1A2DAD1B00317A7A /* prime.cpp */,
 				4FDF05EB1A2DAD1B00317A7A /* prime.h */,
+				4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */,
+				4FDF05F11A2E18F600317A7A /* fourier_transform.h */,
 			);
 			name = Algebra;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				4F0D7F0B1A2B341A00C09DA7 /* macros.cpp in Sources */,
 				4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */,
 				4F0D7F151A2B469C00C09DA7 /* binary_pow.cpp in Sources */,
+				4FDF05F21A2E18F600317A7A /* fourier_transform.cpp in Sources */,
 				4F0D7EF81A2A38B800C09DA7 /* main.cpp in Sources */,
 				4F0D7F031A2A394000C09DA7 /* euler_totient.cpp in Sources */,
 				4FDF05E91A2DA84C00317A7A /* factorial.cpp in Sources */,

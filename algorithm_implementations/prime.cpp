@@ -56,3 +56,8 @@ bool miller_rabin(ULL p, int it){
 	
 	return true;
 }
+/*
+bool miller_rabin_maxll(ULL p){
+    //return miller_rabin(p,2)&&miller_rabin(p,325)&&miller_rabin(p,9375)&&miller_rabin(p,28178)&&miller_rabin(p,450775)&&miller_rabin(p,9780504)&&miller_rabin(p,1795265022);
+    return miller_rabin(p,18);
+}*/

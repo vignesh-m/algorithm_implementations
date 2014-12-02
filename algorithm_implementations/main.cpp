@@ -13,6 +13,7 @@
 #include "macros.cpp"
 #include "factorial.h"
 #include "prime.h"
+#include "fourier_transform.h"
 
 using namespace std;
 
@@ -22,9 +23,12 @@ int main(int argc, const char * argv[])
     freopen("/Users/vigneshm/Documents/codespace/algorithm_implementations/output.txt", "w", stdout);
     int a,b;
     int x,y;
-    cin>>a>>b;
-    int base=18;
-    cout<<miller_rabin(a,base);
+    vector<int> p,q,res;
+    p.pb(1);p.pb(2);p.pb(1);
+    q.pb(1);q.pb(2);q.pb(1);
+    //cin>>a>>b;
+    poly_multiply(p, q, res);
+    cout<<res;
     return 0;
 }
 
