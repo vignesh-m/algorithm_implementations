@@ -19,7 +19,19 @@ int binpow (int a, int n) {
 	return res;
 }
 
-ll binpow (ll a, ll n) {
+int modular_binpow(int a,int n,int mod){
+    int res = 1;
+    a=a%mod;
+	while (n) {
+		if (n & 1)
+			res = (res*a)%mod;
+		a = (a*a)%mod;
+		n >>= 1;
+	}
+	return res;
+}
+
+ll lbinpow (ll a, ll n) {
 	ll res = 1;
 	while (n) {
 		if (n & 1)
@@ -30,7 +42,7 @@ ll binpow (ll a, ll n) {
 	return res;
 }
 
-ll modular_binpow(ll a,ll n,ll mod){
+ll modular_lbinpow(ll a,ll n,ll mod){
     ll res = 1;
     a=a%mod;
 	while (n) {

@@ -12,6 +12,7 @@
 #include <iostream>
 typedef long long ll;
 int binpow(int,int);
-ll binpow(ll,ll);
-ll modular_binpow(ll,ll,ll);
+int modular_binpow(int ,int ,int );
+ll lbinpow(ll,ll);
+ll modular_lbinpow(ll,ll,ll);
 #endif /* defined(__algorithm_implementations__binary_pow__) */

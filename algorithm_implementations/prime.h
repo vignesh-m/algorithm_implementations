@@ -10,5 +10,6 @@
 #define __algorithm_implementations__prime__
 
 #include <iostream>
-typedef long long ll;
+typedef unsigned long long ULL;
+bool miller_rabin(ULL ,int );
 #endif /* defined(__algorithm_implementations__prime__) */

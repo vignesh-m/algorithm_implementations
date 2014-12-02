@@ -49,7 +49,7 @@ using namespace std;
 #define REMIN(a,b) (a)=min((a),(b));
 #define FOREACH(i,t) for (typeof(t.begin()) i=t.begin(); i!=t.end(); i++) // traverse an STL data structure
 #define ALL(c) (c).begin(),(c).end() //handy for function like "sort()"
-#define ll long long //data types used often, but you don't want to type them time by time
+typedef long long ll;//data types used often, but you don't want to type them time by time
 //for map, pair
 #define mp make_pair
 #define fi first

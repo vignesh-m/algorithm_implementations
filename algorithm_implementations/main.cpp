@@ -12,6 +12,7 @@
 #include "euclid_gcd.h"
 #include "macros.cpp"
 #include "factorial.h"
+#include "prime.h"
 
 using namespace std;
 
@@ -22,7 +23,8 @@ int main(int argc, const char * argv[])
     int a,b;
     int x,y;
     cin>>a>>b;
-    cout<<fact_pow(a, b);
+    int base=18;
+    cout<<miller_rabin(a,base);
     return 0;
 }
 
