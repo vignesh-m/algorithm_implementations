@@ -1,0 +1,10 @@
+
+*.xccheckout
+
+algorithm_implementations.xcodeproj/project.xcworkspace/xcuserdata/vigneshm.xcuserdatad/UserInterfaceState.xcuserstate
+
+algorithm_implementations.xcodeproj/xcuserdata/vigneshm.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+algorithm_implementations.xcodeproj/xcuserdata/vigneshm.xcuserdatad/xcschemes/algorithm_implementations.xcscheme
+
+algorithm_implementations.xcodeproj/xcuserdata/vigneshm.xcuserdatad/xcschemes/xcschememanagement.plist
