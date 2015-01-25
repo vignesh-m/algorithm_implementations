@@ -16,6 +16,7 @@
 #include "fourier_transform.h"
 #include "bfs.h"
 #include "dfs.h"
+#include "lis.h"
 
 using namespace std;
 
@@ -23,18 +24,13 @@ int main(int argc, const char * argv[])
 {
     freopen("/Users/vigneshm/Documents/codespace/algorithm_implementations/input.txt", "r", stdin);
     freopen("/Users/vigneshm/Documents/codespace/algorithm_implementations/output.txt", "w", stdout);
-    int n;
-    vector<vector<int> > graph;
-    cin>>n;
-    graph.assign(n,vector<int>());
-    int edgenum,x,y;
-    cin>>edgenum;
-    for(int i=0;i<n;i++){
-        cin>>x>>y;
-        graph[x].pb(y);
-        graph[y].pb(x);
-    }
-    predfs(0,n,graph);
+    int a[] = { 1, 9, 3, 8, 11, 4, 5, 6, 4, 19, 7, 1, 7 };
+    vector<int> seq(a, a+sizeof(a)/sizeof(a[0])); // seq : Input Vector
+    vector<int> lis;                              // lis : Vector containing indexes of longest subsequence
+    find_lis(seq, lis);
+    //Printing actual output
+    for (int i = 0; i < lis.size(); i++)
+        printf("%d ", seq[lis[i]]);
+    printf("\n");
     return 0;
 }
-

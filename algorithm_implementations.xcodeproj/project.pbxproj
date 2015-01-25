@@ -14,6 +14,7 @@
 		4F0D7F151A2B469C00C09DA7 /* binary_pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F131A2B469C00C09DA7 /* binary_pow.cpp */; };
 		4F0D7F181A2B48C400C09DA7 /* euclid_gcd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F161A2B48C400C09DA7 /* euclid_gcd.cpp */; };
 		4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */; };
+		4FA8C2041A383B2200613021 /* lis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8C2021A383B2200613021 /* lis.cpp */; };
 		4FDF05E91A2DA84C00317A7A /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05E71A2DA84C00317A7A /* factorial.cpp */; };
 		4FDF05EC1A2DAD1B00317A7A /* prime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05EA1A2DAD1B00317A7A /* prime.cpp */; };
 		4FDF05F21A2E18F600317A7A /* fourier_transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF05F01A2E18F600317A7A /* fourier_transform.cpp */; };
@@ -49,6 +50,8 @@
 		4F0D7F171A2B48C400C09DA7 /* euclid_gcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = euclid_gcd.h; sourceTree = "<group>"; };
 		4F0D7F191A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eratosthenes_sieve.cpp; sourceTree = "<group>"; };
 		4F0D7F1A1A2B4F6D00C09DA7 /* eratosthenes_sieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eratosthenes_sieve.h; sourceTree = "<group>"; };
+		4FA8C2021A383B2200613021 /* lis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lis.cpp; sourceTree = "<group>"; };
+		4FA8C2031A383B2200613021 /* lis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lis.h; sourceTree = "<group>"; };
 		4FDF05E71A2DA84C00317A7A /* factorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
 		4FDF05E81A2DA84C00317A7A /* factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
 		4FDF05EA1A2DAD1B00317A7A /* prime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prime.cpp; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		4F0D7EF61A2A38B800C09DA7 /* algorithm_implementations */ = {
 			isa = PBXGroup;
 			children = (
+				4FA8C2011A383AFB00613021 /* misc */,
 				4FDF05F31A2E1F7C00317A7A /* Graph */,
 				4F0D7F001A2A38EB00C09DA7 /* Algebra */,
 				4F0D7EF71A2A38B800C09DA7 /* main.cpp */,
@@ -121,6 +125,15 @@
 				4FDF05F11A2E18F600317A7A /* fourier_transform.h */,
 			);
 			name = Algebra;
+			sourceTree = "<group>";
+		};
+		4FA8C2011A383AFB00613021 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8C2021A383B2200613021 /* lis.cpp */,
+				4FA8C2031A383B2200613021 /* lis.h */,
+			);
+			name = misc;
 			sourceTree = "<group>";
 		};
 		4FDF05F31A2E1F7C00317A7A /* Graph */ = {
@@ -185,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA8C2041A383B2200613021 /* lis.cpp in Sources */,
 				4F0D7F0B1A2B341A00C09DA7 /* macros.cpp in Sources */,
 				4F0D7F1B1A2B4F6D00C09DA7 /* eratosthenes_sieve.cpp in Sources */,
 				4F0D7F151A2B469C00C09DA7 /* binary_pow.cpp in Sources */,
